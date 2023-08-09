@@ -1,0 +1,31 @@
+{
+	"name": "purple-in-the-dark-color-variation",
+	"displayName": "Purple in the Dark - Color Variation",
+	"description": "A syntax color variation of the Purple in the Dark Theme ",
+	"version": "0.0.1",
+	"publisher": "SwaggyPinguin",
+	"engines": {
+		"vscode": "^1.81.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"Theme",
+		"Dark",
+		"Purple"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/SwaggyPinguin/purple-in-the-dark-color-variation.git"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Purple in the Dark - Not so red",
+				"uiTheme": "vs-dark",
+				"path": "./themes/purple-in-the-dark-color-variation-color-theme.json"
+			}
+		]
+	}
+}
